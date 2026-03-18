@@ -94,7 +94,7 @@ def login_viber(bot, message, driver) -> None:
         pass
     #driver = create_driver()
     # Ожидаем, чтобы приложение открылось
-    random_sleep(4, 6)  # Можно использовать явные ожидания, но тут для простоты достаточно простого ожидания
+    random_sleep(4, 6)  
     try:
         # Пример поиска кнопки "Разрешить доступ к медиа"
         allow_button = driver.find_element(AppiumBy.ID, "com.android.permissioncontroller:id/permission_allow_button")

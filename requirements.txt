@@ -1,0 +1,6 @@
+pyTelegramBotAPI
+selenium
+Appium-Python-Client
+fake-useragent
+python-dotenv
+pytest
